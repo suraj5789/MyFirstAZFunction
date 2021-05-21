@@ -10,7 +10,7 @@ module.exports = async function(context, req) {
       // error message
       context.res = {
         status: 400,
-        body: "Please supply principal, rate and term in the query string"
+        body: "Please do supply principal, rate and term in the query string"
       };
     } else {
       // Otherwise set the response body to the product of the three values
